@@ -21,7 +21,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: sleep
         run: |
-          sleep 4m
+          sleep 3m
       - name: sleep
         run: |
           sleep 2m
